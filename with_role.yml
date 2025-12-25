@@ -1,0 +1,7 @@
+# install httpd by using a specific role
+---
+- name: Install httpd using a role
+  hosts: localhost
+  become: yes
+  roles:
+    - httpd

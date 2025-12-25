@@ -1,0 +1,17 @@
+---
+- name: Install httpd
+  ansible.builtin.dnf:
+    name: "{{ pkg }}"
+    state: present
+
+- name: Start and enable httpd service
+  ansible.builtin.systemd:
+    name: "{{ svc }}"
+    state: started
+    enabled: yes
+
+- name: Deploy index.html file
+  ansible.builtin.copy:
+    src: index.html
+    dest: "{{ file_path }}/index.html"
+
