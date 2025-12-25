@@ -119,7 +119,7 @@ Below is the successful execution output showing:
 * index.html deployed
 * No failures
 
-![Ansible HTTPD Role Execution](1687f1ab-ab31-4e09-bc7f-5394d4d85691.png)
+![Ansible HTTPD Role Execution](/img/Screenshot (325) - Copy.png)
 
 ---
 
