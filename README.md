@@ -2,6 +2,7 @@
 
 This project demonstrates how to **install, start, enable, and deploy Apache HTTPD** using a **custom Ansible role**.
 It follows **Ansible best practices** by separating orchestration (playbook) and implementation (role).
+![](img/architectural%20diagram%20of%20ansible%20role.png)
 
 🔗 **GitHub Repository:**
 👉 [https://github.com/aniket-jagadale/ansible-role-installation-HTTPD.git](https://github.com/aniket-jagadale/ansible-role-installation-HTTPD.git)
@@ -119,7 +120,7 @@ Below is the successful execution output showing:
 * index.html deployed
 * No failures
 
-![Ansible HTTPD Role Execution](/img/Screenshot (325) - Copy.png)
+![Ansible HTTPD Role Execution](/img/Screenshot%20(325)%20-%20Copy.png)
 
 ---
 
@@ -134,6 +135,7 @@ http://localhost
 You should see the deployed **index.html** page.
 
 ---
+![alt text](<img/Screenshot (323).png>)
 
 ## ⭐ Best Practices Followed
 
